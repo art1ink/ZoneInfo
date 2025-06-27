@@ -1,31 +1,24 @@
-Intuitive and functional addon for The Elder Scrolls Online that provides players with complete real-time information about their character's current location. Can be used alongside the MapPins addon for enhanced location data.
+## Intuitive and functional addon for The Elder Scrolls Online that provides players with complete real-time information about their character's current location. Can be used alongside the [MapPins](https://www.esoui.com/downloads/info1881-MapPins.html) addon for enhanced location data.
 
-Complete Location Information:
-Main zone name (e.g., "Auridon")
 
-Subzone/texture name (e.g., "Skywatch")
+## Complete Location Information:
+ -Main zone name (e.g., "Auridon")<br/>
+ -Subzone/texture name (e.g., "Skywatch")<br/>
+ -Map texture technical name (e.g., "auridon_base_7")<br/>
+ -Exact X and Y coordinates (percentage-based)<br/>
 
-Map texture technical name (e.g., "auridon_base_7")
+## User-Friendly Customizable Interface:
+ -Self-adjusting window<br/>
+ -Automatically resizes to fit content dimensions<br/>
+ -Freely movable widget<br/>
+ -Can be dragged to any screen area<br/>
+ -Temporary visibility toggle<br/>
+ -Show/hide button for quick UI control<br/>
+ -Persistent settings<br/>
+ -Remembers position and visibility state across game sessions<br/>
+ -Automatic UI hiding<br/>
+ -Disappears when game menus or other interface windows open<br/>
 
-Exact X and Y coordinates (percentage-based)
-
-User-Friendly Customizable Interface:
-Self-adjusting window
-Automatically resizes to fit content dimensions
-
-Freely movable widget
-Can be dragged to any screen area
-
-Temporary visibility toggle
-Show/hide button for quick UI control
-
-Persistent settings
-Remembers position and visibility state across game sessions
-
-Automatic UI hiding
-Disappears when game menus or other interface windows open
-
-Key Technical Notes:
-Uses ESO's normalized coordinate system (0-100% relative to map textures)
-
-Implements event listeners for menu open/close states:
+## Key Technical Notes:
+ -Uses ESO's normalized coordinate system (0-100% relative to map textures)<br/>
+ -Implements event listeners for menu open/close states:<br/>
